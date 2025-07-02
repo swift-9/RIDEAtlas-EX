@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: "build/client",
     emptyOutDir: true,
-    ssr: "src/entry-server.tsx",  // <-- must match your actual SSR entry file
+    ssr: "app/entry-server.tsx",  // <-- must match your actual SSR entry file
   },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
