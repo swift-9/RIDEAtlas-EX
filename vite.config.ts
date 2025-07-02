@@ -7,6 +7,11 @@ import tsconfigPaths from "vite-tsconfig-paths";
 const isProd = process.env.NODE_ENV === "production";
 
 export default defineConfig({
-  base: isProd ? "/RIDEAtlas-EX/" : "/",  // 👈 dynamic base path
+  base: isProd ? "/RIDEAtlas-EX/" : "/", // dynamic base path
+  build: {
+    outDir: "build/client", // REQUIRED for gh-pages deploy from this folder
+    emptyOutDir: true,
+  },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
+
