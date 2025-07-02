@@ -2,14 +2,12 @@
   "name": "rrv7-progect-app",
   "private": true,
   "type": "module",
-  "homepage": "https://swift-9.github.io/RIDEAtlas-EX",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "predeploy": "npm run build && node copy404.js",
-    "deploy": "gh-pages -d build/client"
+
   },
   "dependencies": {
     "@react-router/node": "^7.5.3",
