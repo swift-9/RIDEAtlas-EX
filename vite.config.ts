@@ -5,9 +5,12 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
   build: {
-    outDir: "build/client",     // Required for static assets
+    outDir: "build/client",
     emptyOutDir: true,
-    ssr: "app/root.tsx"         // <- IMPORTANT for SSR on Vercel
+    ssr: true
+  },
+  ssr: {
+    entry: "app/root.tsx"
   },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()]
 });
