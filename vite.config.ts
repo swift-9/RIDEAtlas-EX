@@ -7,10 +7,7 @@ export default defineConfig({
   build: {
     outDir: "build/client",
     emptyOutDir: true,
-    ssr: true
+    ssr: "app/root.tsx" // ✅ this is the correct way to set SSR entry
   },
-  ssr: {
-    entry: "app/root.tsx"
-  },
-  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()]
+  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 });
