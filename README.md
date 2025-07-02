@@ -1,87 +1,30 @@
-# Welcome to React Router!
+# RIDEAtlas-EX
 
-A modern, production-ready template for building full-stack React applications using React Router.
+🌍 A modern, responsive React web app using the [REST Countries API](https://restcountries.com/) to explore comprehensive data about countries — built with **React Router v7**, **Tailwind CSS**, and a clean, modular architecture.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+![REST Countries](https://img.shields.io/badge/API-REST%20Countries-blue)
+![Built with React Router](https://img.shields.io/badge/Built%20With-React%20Router-orange)
+![TailwindCSS](https://img.shields.io/badge/Styled%20With-TailwindCSS-38bdf8)
 
 ---
 
-Built with ❤️ using React Router.
+## 🔍 Features
+
+- 🌐 Explore country names, capitals, population, flags, and more
+- 🔀 Search by name and filter by region
+- ⚡️ Fast navigation with client-side routing (React Router v7)
+- 📱 Responsive and mobile-first UI
+- 🎨 Styled with Tailwind CSS
+- 📦 Production-ready template with build optimizations
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and Install
+
+```bash
+git clone https://github.com/swift-9/RIDEAtlas-EX.git
+cd RIDEAtlas-EX
+npm install
+```
