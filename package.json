@@ -1,7 +1,7 @@
 {
   "name": "rrv7-progect-app",
   "private": true,
-  "type": "module",
+  "type": "module",  
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
