@@ -1,8 +1,13 @@
+import { reactRouter } from "@react-router/dev/vite";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "vite";
+import tsconfigPaths from "vite-tsconfig-paths";
+
 export default defineConfig({
-  base: "/", // no /RIDEAtlas-EX on vercel
   build: {
-    outDir: "dist",
+    outDir: "build/client",     // Required for static assets
     emptyOutDir: true,
+    ssr: "app/root.tsx"         // <- IMPORTANT for SSR on Vercel
   },
-  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()]
 });
