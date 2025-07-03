@@ -30,6 +30,7 @@ export default function Footer() {
             <li>Tailwind CSS</li>
             <li>REST Countries API</li>
             <li>React Router v7</li>
+            <li>Framer Motion</li>
           </ul>
         </div>
 
@@ -52,8 +53,7 @@ export default function Footer() {
               <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 008 11c.59.1.8-.25.8-.56v-2c-3.24.7-3.93-1.56-3.93-1.56a3.1 3.1 0 00-1.3-1.7c-1.06-.73.08-.72.08-.72a2.5 2.5 0 011.84 1.24 2.53 2.53 0 003.44 1 2.52 2.52 0 01.75-1.6c-2.59-.3-5.32-1.3-5.32-5.75a4.5 4.5 0 011.2-3.12 4.18 4.18 0 01.11-3.07s.98-.31 3.2 1.18a11 11 0 015.84 0c2.22-1.49 3.2-1.18 3.2-1.18.4 1.03.32 2.14.11 3.07a4.5 4.5 0 011.2 3.12c0 4.46-2.74 5.45-5.35 5.74a2.83 2.83 0 01.8 2.2v3.26c0 .31.21.67.81.56A11.5 11.5 0 0023.5 12c0-6.27-5.23-11.5-11.5-11.5z" />
               </svg>
-              <a
-                href="https://github.com/swift-9"
+              <a href="https://github.com/swift-9"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-white transition"

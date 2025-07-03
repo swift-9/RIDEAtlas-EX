@@ -1,13 +1,14 @@
 import { reactRouter } from "@react-router/dev/vite";
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from "@tailwindcss/postcss";
+import autoprefixer from "autoprefixer";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  build: {
-    outDir: "build/client",
-    emptyOutDir: true,
-    ssr: "app/entry-server.tsx",  // <-- must match your actual SSR entry file
+  css: {
+    postcss: {
+      plugins: [tailwindcss, autoprefixer],
+    },
   },
-  plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+  plugins: [reactRouter(), tsconfigPaths()],
 });
