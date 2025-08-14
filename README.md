@@ -11,7 +11,6 @@ I built this project as part of my learning journey in frontend development — 
 ![Built with React Router](https://img.shields.io/badge/Built%20With-React%20Router-orange)
 ![TailwindCSS](https://img.shields.io/badge/Styled%20With-TailwindCSS-38bdf8)
 ![Responsive](https://img.shields.io/badge/Mobile%20First-Yes-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -69,7 +68,7 @@ https://restcountries.com/v3.1/all?fields=name,capital,region,population,flag
 
 ## 🖼️ Screenshots
 
-## <div><img src="src/assets/pic.png" alt="Screenshot" /></div>
+## <div><img src="public/pic.png" alt="Screenshot" /></div>
 
 ---
 
