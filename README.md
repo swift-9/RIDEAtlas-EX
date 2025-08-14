@@ -19,6 +19,7 @@ I built this project as part of my learning journey in frontend development — 
 ## ⚙️ Tech Stack
 
 - **React** – Component-based UI development
+- **TypeScript** – Type safety and tooling
 - **Vite** – Lightning-fast build tool
 - **TailwindCSS** – Utility-first CSS for styling
 - **React Router v7** – Client-side routing for navigation
